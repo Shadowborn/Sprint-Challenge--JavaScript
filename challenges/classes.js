@@ -1,7 +1,7 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
 
-
+{
 class CuboidMaker {
     constructor(param) {
         this.length = param.length;
@@ -56,3 +56,5 @@ const cube = new CubeMaker({
 
 console.log(cube.cubeVolume());
 console.log(cube.surfaceArea());
+
+}

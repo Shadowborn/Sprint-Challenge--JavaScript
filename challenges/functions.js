@@ -16,25 +16,25 @@ function highOrderFunction(parameter1, parameter2, cb) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-function add(parameter1, parameter2){
+function add(parameter1, parameter2) {
   return (parameter1 + parameter2);
 }
 console.log(add(30, 48))
 
-function multiply(parameter1, parameter2){
+function multiply(parameter1, parameter2) {
   return (parameter1 * parameter2);
 }
 console.log(multiply(30, 48))
 
-function greeting(parameter1, parameter2){
+function greeting(parameter1, parameter2) {
   return (`Hello ${parameter1} ${parameter2}  nice to meet you!`)
 }
 console.log(greeting("James", "Starks"));
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-highOrderFunction(2,2,add); // 4
-highOrderFunction(10,16,multiply); // 160
-highOrderFunction("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+highOrderFunction(2, 2, add); // 4
+highOrderFunction(10, 16, multiply); // 160
+highOrderFunction("Mary", "Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 

@@ -40,7 +40,7 @@ const shapeMaker = new CuboidMaker({
 });
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(shapeMaker.volume()); // 100
-console.log(shapeMaker.surfaceArea()); // 130
+console.log("Shapemaker volume", shapeMaker.volume()); // 100
+console.log("Shapemaker surface Area",shapeMaker.surfaceArea()); // 130
 
 

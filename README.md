@@ -42,7 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-    1. Window/Global Object Binding is when the scope of this will be the window or console object.
+    1. Window/Global Object Binding is when the scope of `this` will be the window or console object.
 
     2. Implicit Binding defines the object before the dot (IE: `object.whateverFunction`) will be 'this'
 

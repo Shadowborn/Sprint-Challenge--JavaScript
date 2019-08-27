@@ -127,7 +127,7 @@ const animalNames = [];
 let animals = zooAnimals.forEach(function (animal) {
   animalNames.push(animal.animal_name + " " + animal.scientific_name);
 })
-console.log(animalNames);
+console.log("animal names", animalNames);
 
 /* Request 2: .map()    
 
@@ -150,7 +150,7 @@ const largerPopulation = zooAnimals.filter((pop) => {
   return pop.population <= 5;
 });
 
-console.log(largerPopulation);
+console.log("larger population", largerPopulation);
 
 /* Request 4: .reduce() 
 
